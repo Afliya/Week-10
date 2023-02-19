@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+    font-family: Inter, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+#image1 {
+    width: 50vw;
+}
+
+.flowers {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.button {
+    background-color: rgb(16, 105, 238);
+    color: white;
+    width: 17%;
+    height: 3vh;
+    border-radius: 5px;
+    border-color: rgb(16, 105, 238);
+    font-size: 1rem;
+}
+
+.button:hover {
+	border: 2px solid #121111;
+    transition: 0.7s;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
